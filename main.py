@@ -19,7 +19,7 @@ Usage:
 import numpy as np
 import cv2
 from multiprocessing.pool import ThreadPool
-from common import clock, mosaic
+from common import mosaic
 from numpy.linalg import norm
 
 SZ = 20 # size of each digit is SZ x SZ
